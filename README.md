@@ -49,15 +49,23 @@
 <h2 id="project-files-description"> :floppy_disk: Project Files Description</h2>
 
 <ul>
-<li><strong>Game.cpp:</strong> Implements game logic including menus, Pokémon management, battling, and training functionalities.</li>
+<li><strong>Movie.cpp:</strong> Implements the Movie class which contains all the information about each movie, such as title, rating, genre, year, director, star, budget, gross, studio, and runtime. This file also includes the overloaded < and > operators for sorting and operator for displaying movies.</li>
 
-<li><strong>Game.h:</strong> Header file defining the Game class and its member function prototypes.</li>
-<li><strong>Pokemon.cpp:</strong> Defines the methods for the Pokemon class, handling Pokémon attributes and behaviors.</li>
-<li><strong>Pokemon.h:</strong> Header file defining the Pokemon class and its member function prototypes.</li>
-<li><strong>makefile:</strong> Script to compile the project, specifying dependencies and build instructions.</li>
-<li><strong>proj2:</strong> Executable file for running the Pokémon simulation.</li>
-<li><strong>proj2.cpp:</strong> Main driver file initializing the game and handling user interactions.</li>
-<li><strong>proj2_pokeDex.txt:</strong> Data file containing information on Pokémon including number, name, maximum combat points (CP), and rarity.</li>
+<li><strong>Movie.h:</strong> Header file defining the Movie class and its member function prototypes.</li>
+<li><strong>MoviePlayer.cpp:</strong> Implements the MoviePlayer class which manages the master movie catalog and the user’s playlist. This file includes functionalities for displaying movies by type and year, adding movies to the playlist, displaying the playlist, and sorting the playlist by year.</li>
+<li><strong>MoviePlayer.h:</strong> Header file defining the MoviePlayer class and its member function prototypes.</li>
+<li><strong>Queue.cpp</strong> implements a templated linked list class Queue that allows users to PushBack (add to tail) and PopFront (remove from front). This file includes functionalities to display, return the data in the first node, return the size, and check if it is empty. It also includes a copy constructor and an overloaded assignment operator. The file should not reference any specific data type like Movie.</li>
+
+<li><strong>makefile</strong> A makefile that contains rules for compiling the project and running tests. It includes specific rules for testing the Queue class.</li>
+
+<li><strong>proj5</strong> The compiled executable file for the project.</li>
+
+<li><strong>proj5.cpp:</strong> The main file that drives the entire program. It creates an instance of MoviePlayer and provides the user interface for interacting with the movie catalog and playlist.</li>
+
+<li><strong>proj5_movies.txt: </strong> The input file containing the list of movies used to populate the movie catalog in the MoviePlayer class.</li>
+
+<li><strong>qtest</strong> The compiled executable file for testing the Queue class.</li>
+<li><strong>queue_test.cpp:</strong> A test file designed to test each of the major parts of the Queue class. This file is used to incrementally build and test the Queue functionalities.</li>
 </ul>
 
 
@@ -68,21 +76,27 @@
 <h2 id="getting-started"> :book: Getting Started</h2>
 
 <p>Use the following command to clone the repository to your local machine:</p>
-<pre><code>git clone git@github.com:YourGitHubUsername/Pokemon_Game.git</code></pre>
+<pre><code>git clone git@github.com:YourGitHubUsername/Movie-Player.git</code></pre>
 <p>Replace YourGitHubUsername with your actual GitHub username.</p>
 
 
 <p>Change into the project directory:</p>
-<pre><code>cd Pokemon_Game</code></pre>
+<pre><code>cd Movie-Player</code></pre>
 
 <p>Compile the Program:  Ensure you have g++ installed on your system. If not, install it using your package manager. Use the provided makefile to compile the project</p>
-<pre><code>make</code></pre>
-<p>This command compiles the necessary files <strong>(Pokemon.o, Game.o, and proj2.cpp)</strong> into an executable named proj2</p>
+<pre><code>make all</code></pre>
+<p>This will compile all the necessary files and create the executable proj5 and the test executable qtest.</p>
 
 
-<p>Run the Program: Replace <strong>proj2_pokeDex.txt</strong> with the path to your own Pokémon data file if it's located elsewhere.</p>
-<pre><code>./proj2 proj2_pokeDex.txt</code></pre>
+<p>Run the Movie-Player. After compiling, you can run the main program using the following command:</p>
+<pre><code>./proj5</code></pre>
+<p>This will start the movie player, where you will be presented with a menu to interact with the movie catalog and playlist.</p>
 
+
+<p>Run the qtests. To ensure the Queue class functions correctly, you can run the tests:
+</p>
+<pre><code>./qtest</code></pre>
+<p>This will execute the tests defined in queue_test.cpp and help verify the correctness of the Queue implementation.</p>
 
 <!-- CREDITS -->
 <h2 id="credits"> :scroll: Credits</h2>
