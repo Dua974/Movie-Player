@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img src="images/pokemon_Logo.jpg" alt="Pokemon Logo" width="80px" height="80px">
+  <img src="images/movie.png" alt="Pokemon Logo" width="210px" height="210px">
 </p>
 <h1 align="center"> Pokemon Game </h1>
 
@@ -30,18 +30,17 @@
 ![------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2 id="overview"> :cloud: Overview</h2>
-<p>This project simulates a classic Pokémon game experience using C++. You will be given a menu with several options:</p>
+<p> This project is a robust tool designed to manage a vast catalog of movies, offering users a variety of functionalities: </p>
 
 <ul>
-  <li><strong>Display Complete PokeDex:</strong> View all available Pokémon with their names.</li>
-  <li><strong>Display Your Team:</strong> See the Pokémon currently in your team.</li>
-  <li><strong>Search for a New Pokémon:</strong> Attempt to catch Pokémon of different rarities (Common, Uncommon, Ultra Rare).</li>
-  <li><strong>Battle Your Pokémon:</strong> Engage in battles with randomly chosen opponent Pokémon.</li>
-  <li><strong>Train Your Pokémon:</strong> Increase your Pokémon's combat points (CP) through training sessions.</li>
-  <li><strong>Exit:</strong> End the simulation.</li>
+  <li><strong>Display Movie by Type and Year:</strong> View movies based on specific genres and release years, facilitating easy exploration of diverse cinematic options.</li>
+  <li><strong>Add Movie to Playlist:</strong> Dynamically add selected movies to a personalized playlist for seamless playback.</li>
+  <li><strong>Display Playlist:</strong> View the current list of movies in the playlist, providing instant access to curated viewing experiences.</li>
+  <li><strong>Sort Playlist by Year:</strong> Organize the playlist chronologically, from oldest to newest or vice versa, enhancing user control over playback preferences.</li>
+  <li><strong>Quit: </strong> Exit the application with ease. </li>
 </ul>
 
-<p>The game ensures that all user inputs are validated, and it provides appropriate feedback based on your actions, such as winning or losing battles and managing your Pokémon team effectively. This project follows C++ coding standards and uses basic programming functionalities to deliver an interactive gameplay experience inspired by the Pokémon series.</p>
+<p>The project leverages C++ to ensure efficient management of thousands of movie titles, offering a seamless viewing experience tailored to individual preferences and cinematic tastes.</p>
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
