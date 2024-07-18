@@ -4,7 +4,7 @@
 
 int main (int argc, char* argv[]) {
   string movieFile;
-  cout << "Welcome to UMBC Movie Player"<<endl;
+  cout << "Welcome to Movie Player"<<endl;
   if(argc > 1){
     movieFile = argv[1];
   } else{
