@@ -120,7 +120,7 @@ void MoviePlayer::MainMenu() {
         } else if (userChoice == 4) {
             SortPlaylist();
         } else if (userChoice == 5) {
-            cout << "Thank you for using the UMBC Movie Player!" << endl;
+            cout << "Thank you for using the Movie Player!" << endl;
         } else {
             cout << "Invalid choice. Please try again." << endl;
         }
