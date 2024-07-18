@@ -1,7 +1,7 @@
 <p align="center"> 
-  <img src="images/movie.png" alt="Pokemon Logo" width="210px" height="210px">
+  <img src="images/movie.png" alt="Movie Player" width="210px" height="210px">
 </p>
-<h1 align="center"> Pokemon Game </h1>
+<h1 align="center"> Movie Player </h1>
 
 
 <!-- TABLE OF CONTENTS -->
