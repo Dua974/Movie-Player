@@ -24,7 +24,8 @@
 <!-- ABOUT THE PROJECT -->
 <h2 id="about-the-project"> :pencil: About The Project</h2>
 
-<p>This project simulates a basic implementation of the Pokémon game franchise. Pokémon is a game where players act as trainers of creatures known as Pokémon, exploring the world to catch, train, and battle these creatures. The project uses a static list of 151 Pokémon with attributes such as name, combat points (CP), and rarity.
+<p>
+This project implements a movie management system in C++ that allows users to browse, organize, and manage a large catalog of movies. It provides functionality to filter movies, create a personalized playlist, and sort movies based on different criteria.
 </p>
 
 ![------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -76,7 +77,7 @@
 <h2 id="getting-started"> :book: Getting Started</h2>
 
 <p>Use the following command to clone the repository to your local machine:</p>
-<pre><code>git clone git@github.com:YourGitHubUsername/Movie-Player.git</code></pre>
+<pre><code>git clone https://github.com/YOUR-USERNAME/Movie-Player.git</code></pre>
 <p>Replace YourGitHubUsername with your actual GitHub username.</p>
 
 
@@ -105,3 +106,31 @@ Dua Abdullah
 
 
 [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dua974)
+
+<h2>🛠️ Technologies Used</h2>
+<ul>
+  <li>C++</li>
+  <li>Object-Oriented Programming (OOP)</li>
+  <li>Templates and Linked Lists</li>
+  <li>Makefile</li>
+  <li>Command Line Interface</li>
+</ul>
+
+<h2>⭐ Key Features</h2>
+<ul>
+  <li>Movie catalog filtering by genre and year</li>
+  <li>Dynamic playlist creation and management</li>
+  <li>Sorting playlist using overloaded operators</li>
+  <li>Custom templated Queue (linked list) implementation</li>
+  <li>Separate testing module for data structure validation</li>
+</ul>
+
+<h2>👤 My Contribution</h2>
+<p>
+I designed and implemented the MoviePlayer system, including movie catalog management, playlist functionality, and sorting logic. I also developed a templated Queue data structure using linked lists and implemented testing to verify correctness. Additionally, I handled debugging and integration of all components.
+</p>
+
+<h2>💡 Reflection</h2>
+<p>
+This project helped me deepen my understanding of data structures, especially linked lists and templates in C++. One challenge was implementing a generic Queue class that works with different data types, which improved my problem-solving and debugging skills.
+</p>
